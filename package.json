@@ -11,7 +11,15 @@
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.7",
+    "puppeteer": "^5.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.18.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1"
   },
   "repository": {
     "type": "git",
@@ -23,12 +31,5 @@
   "bugs": {
     "url": "https://github.com/wangqi908/html2pdf/issues"
   },
-  "homepage": "https://github.com/wangqi908/html2pdf#readme",
-  "devDependencies": {
-    "eslint": "^7.18.0",
-    "eslint-config-standard": "^16.0.2",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.2.1"
-  }
+  "homepage": "https://github.com/wangqi908/html2pdf#readme"
 }
