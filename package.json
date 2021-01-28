@@ -23,5 +23,12 @@
   "bugs": {
     "url": "https://github.com/wangqi908/html2pdf/issues"
   },
-  "homepage": "https://github.com/wangqi908/html2pdf#readme"
+  "homepage": "https://github.com/wangqi908/html2pdf#readme",
+  "devDependencies": {
+    "eslint": "^7.18.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1"
+  }
 }
