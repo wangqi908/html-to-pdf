@@ -16,16 +16,17 @@ http://localhost:3000
 
 | 参数名   | 必选 | 类型   | 说明              |
 | :------- | :--- | :----- | ----------------- |
-| url      | 是   | string | 生成pdf的html地址 |
-| fileName | 否   | string | 文件名            |
+| url      | 否   | string | 生成pdf的html地址 |
 | margin | 否   | object | 边距            |
+| styleStr | 否   | string | style           |
+| htmlStr | 否   | string | html           |
+| token | 否   | string | token           |
 
 **请求示例**
 
 ```json
 {
-    "url": "https://www.baidu.com/", //必填
-    "fileName": "文件",
+    "url": "https://www.baidu.com/",
     "margin": {
         "top": "20px",
         "bottom": "20px",

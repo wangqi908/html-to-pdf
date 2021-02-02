@@ -17,12 +17,11 @@ module.exports = {
         Authorization: 'token'
       })
     }
-
     if (url) {
       if (url === '') {
         return { status: 400, data: 'url不可为空' }
       }
-      await page.goto(url, { waitUntil: 'networkidle2' })
+      await page.goto(url, { waitUntil: 'networkidle0' })
     } else {
       if (!htmlStr) {
         return { status: 400, data: 'htmlStr不可为空' }
@@ -34,7 +33,6 @@ module.exports = {
       await page.addStyleTag({ content: styleStr })
     }
 
-    await page.goto(url, { waitUntil: 'networkidle0' })
     const pdfOpt = {
       format: 'A4',
       printBackground: true,
